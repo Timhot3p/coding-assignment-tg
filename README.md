@@ -21,6 +21,11 @@ For styling, this website uses basic [TailwindCSS](https://tailwindcss.com/). Ta
 5. Run the project by running [`npm run dev`](https://nextjs.org/docs/app/api-reference/next-cli#development) in the terminal. Changes in the code will be automatically applied.
 6. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+## First Steps
+
+1. Create a new Git branch for you changes. You can do so by running `git checkout -b <branch-name>` in the terminal.
+
+
 ## Need help?
 
 As long as you keep the terminal open after running `npm run dev`, the website under [http://localhost:3000](http://localhost:3000) will automatically update when you make changes to the code. If you want to stop the development server, you can do so by pressing `CTRL + C` in the terminal. If you want to start the development server again, you can do so by running `npm run dev` again.
@@ -53,3 +58,15 @@ You do not need to worry about the following things:
 * Also:
 	* [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
 	* [https://tailwindcss.com/docs](https://tailwindcss.com/docs)
+
+## How to submit your solution
+
+0. Ensure you are on your own branch.
+1. Commit your changes to your local Git repository.
+2. Push your changes to the remote Git repository on GitHub.
+
+If something is wrong, you can always zip your project and send it to us via email. But please, delete the `node_modules` folder before doing so :).
+
+## Questions?
+
+Please reach out, if you have any questions.
