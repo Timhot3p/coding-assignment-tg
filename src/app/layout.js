@@ -62,9 +62,6 @@ export default function RootLayout({ children }) {
                   <li>
                     <Link href="/contact">Contact</Link>
                   </li>
-                  <li className="text-red-600">
-                    TODO: Add missing links from header
-                  </li>
                 </ul>
               </section>
             </div>
