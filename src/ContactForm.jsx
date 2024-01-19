@@ -15,7 +15,7 @@ export const ContactForm = ({ name }) => {
         submit({ name });
       }}
     >
-      <div>
+      <div style={{ margin: 20 }}>
         <Input
           label="Name (it's okay if you don't want to tell me, I should already know at this point)"
           name="name"
@@ -24,18 +24,18 @@ export const ContactForm = ({ name }) => {
           color="primary"
         />
       </div>
-      <div>
+      <div style={{ margin: 20 }}>
         <Input label="Your favorite color" name="color" color="primary" />
       </div>
-      <div>
+      <div style={{ margin: 20 }}>
         <Input
           label="Is there something else you want to tell me?"
           name="secret"
           color="primary"
         />
       </div>
-      <div>
-        <p>
+      {/*<div>
+        {/*<p>
           TODO: We should add a submit button here. It should be a primary
           button with the text &quot;Send Message&quot;.
         </p>
@@ -50,9 +50,19 @@ export const ContactForm = ({ name }) => {
         <p>
           And, I guess we should add some spacing between the input fields and
           also between the inputs and the button.
-        </p>
-      </div>
+        </p>*
+      </div>*/}
       {/* This would be a great place for a submit button */}
+      <div
+        style={{
+          margin: 20,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Button color="primary">Send Message</Button>
+      </div>
     </form>
   );
 };
