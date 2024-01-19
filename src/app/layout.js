@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
                   <div>
                     <Link href="/">Home</Link>
                   </div>
-                  <div className="pt-2">
+                  <div>
                     <Link href="/about">About</Link>
                   </div>
                   <div>
